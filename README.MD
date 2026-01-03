@@ -1,33 +1,3 @@
-Directory Structure Supported For Scripts
-├── _SUBJECT_
-│   ├── pdf 
-│   ├── quizes
-│   └── text
-├── script.py
-├──.env.local
-
-put your PPTs Inside of SUBJECT/pdf/
-copy the convert.sh into SUBJECT/
-run cd ./SUBJECT
-run chmod -x convert.sh
-run ./convert.sh
-
-poof! your Directory with text extracted from Pdf is inside SUBJECT/text/
-continue generating texts for all the SUBJECTS
-
-after being done with generating all the texts
-
-run cd ../
-run python3 script.py
-
-make .env.local with your prefered variables 
-format is same as .env.sample
-
-if encountered issue with python 
-use v env with python
-
-
-
 
 ## 🧠 **The Simple PDF-to-Quiz Pipeline**
 
