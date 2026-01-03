@@ -1,0 +1,30 @@
+# Python
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+# env
+venv/
+env/
+.venv/
+# Distributions and packaging
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+# Specific editors and OS
+.idea/  # common for PyCharm
+.vscode/ # common for VS Code
+.DS_Store # common for macOS
+# Testing and debugging
+.pytest_cache/
+# Logs and databases
+*.log
+*.sqlite
+Architecture/
+CN/
+DBMS/
+OS/
+.env.local
