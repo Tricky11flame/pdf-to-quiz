@@ -117,5 +117,3 @@ python3 script.py
 
 * **Blank Files?** If a text file is empty, your PDF is likely a scanned image. You’ll need an OCR tool for those.
 * **Quota Error?** If the script stops with a "429" error, just leave it running. It is programmed to wait and resume automatically when Google allows it.
-
-Would you like me to help you create a **study interface** to actually take these quizzes?
